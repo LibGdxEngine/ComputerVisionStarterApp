@@ -1,17 +1,18 @@
-package com.example.computervisionwithandroidcourse.UseCases.ImageAnalyser.ImageAnalyserImaplementations;
+package com.example.computervisionwithandroidcourse.UseCases.MarkerDetector.MarkerDetectorImplementation;
 
 import android.graphics.Bitmap;
-import android.graphics.Point;
-
-import com.example.computervisionwithandroidcourse.UseCases.ImageAnalyser.MarkerDetector;
-
+import com.example.computervisionwithandroidcourse.UseCases.MarkerDetector.MarkerDetector;
+import org.opencv.android.Utils;
+import org.opencv.core.CvType;
+import org.opencv.core.Mat;
+import org.opencv.core.Point;
+import org.opencv.imgproc.Imgproc;
 import java.util.List;
 
 public class MarkerDetectorForColoredMarker implements MarkerDetector {
 
     @Override
     public List<Point> analyseImageAndGetMarkersPoints(Bitmap image) {
-        markersPoints.add(new Point(0 , 0));
         return markersPoints;
     }
 }

@@ -1,7 +1,7 @@
-package com.example.computervisionwithandroidcourse.UseCases.ImageAnalyser;
+package com.example.computervisionwithandroidcourse.UseCases.MarkerDetector;
 
-import com.example.computervisionwithandroidcourse.UseCases.ImageAnalyser.ImageAnalyserImaplementations.MarkerDetectorForColoredMarker;
-import com.example.computervisionwithandroidcourse.UseCases.ImageAnalyser.ImageAnalyserImaplementations.MarkerDetectorForSquareMarker;
+import com.example.computervisionwithandroidcourse.UseCases.MarkerDetector.MarkerDetectorImplementation.MarkerDetectorForColoredMarker;
+import com.example.computervisionwithandroidcourse.UseCases.MarkerDetector.MarkerDetectorImplementation.MarkerDetectorForSquareMarker;
 
 public class MarkerDetectorFactory {
     public static MarkerDetector getImageAnalyser(MarkerDetectorType analyserType){

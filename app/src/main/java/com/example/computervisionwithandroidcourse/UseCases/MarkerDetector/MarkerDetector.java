@@ -1,8 +1,8 @@
-package com.example.computervisionwithandroidcourse.UseCases.ImageAnalyser;
+package com.example.computervisionwithandroidcourse.UseCases.MarkerDetector;
 
 import android.graphics.Bitmap;
-import android.graphics.Point;
-import androidx.camera.core.ImageProxy;
+
+import org.opencv.core.Point;
 
 import java.util.ArrayList;
 import java.util.List;

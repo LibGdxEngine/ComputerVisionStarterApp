@@ -1,10 +1,8 @@
-package com.example.computervisionwithandroidcourse.UseCases.ImageAnalyser.ImageAnalyserImaplementations;
+package com.example.computervisionwithandroidcourse.UseCases.MarkerDetector.MarkerDetectorImplementation;
 
 import android.graphics.Bitmap;
-import android.graphics.Point;
-
-import com.example.computervisionwithandroidcourse.UseCases.ImageAnalyser.MarkerDetector;
-
+import com.example.computervisionwithandroidcourse.UseCases.MarkerDetector.MarkerDetector;
+import org.opencv.core.Point;
 import java.util.List;
 
 public class MarkerDetectorForSquareMarker implements MarkerDetector {
